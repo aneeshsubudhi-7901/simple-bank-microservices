@@ -1,0 +1,24 @@
+{
+  "name": "account-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "cookie-parser": "~1.4.6",
+    "cors": "^2.8.5",
+    "debug": "~4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "~4.18.2",
+    "http-errors": "~2.0.0",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.9.0",
+    "morgan": "~1.10.0",
+    "pug": "3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
